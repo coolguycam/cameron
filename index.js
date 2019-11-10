@@ -1,10 +1,30 @@
 $('#navigation a').on('click', function(e) {
-    e.preventDefault();
-    var hash = this.hash;
-    $('html, body').animate({
-      scrollTop: $(this.hash).offset().top
-    }, 1000);
+  e.preventDefault();
+  var hash = this.hash;
+  $('html, body').animate({
+    scrollTop: $(this.hash).offset().top
+  }, 1000);
 });
+
+$('#form').submit(function(e) {
+  e.preventDefault();
+
+  const data = {
+    authToken: document.cookie,
+    firstname: $("#firstname").val(),
+    lastname: $("#lastname").val(),
+    email: $("#email").val(),
+    tel: ($("#tel").val()) ? $("#tel").val() : null,
+    subject: $("#subject").val(),
+    msg: $("#msg").val()
+  };
+
+  $.ajax({
+      url: "mailtime.php?post",
+      type: 'POST',
+      data
+  })
+})
 
 $('.toggler, .nav-content a:not(#dropdown-link)').on('click', function(){
   $('.toggler').toggleClass('change');
