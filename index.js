@@ -16,7 +16,7 @@ $('#form').submit(function(e) {
     email: $("#email").val(),
     tel: ($("#tel").val()) ? $("#tel").val() : null,
     subject: $("#subject").val(),
-    msg: $("#msg").val()
+    msg: $("#message").val()
   };
 
   $.ajax({
@@ -24,6 +24,17 @@ $('#form').submit(function(e) {
       type: 'POST',
       data
   })
+
+  $("#firstname").val('');
+  $("#lastname").val('');
+  $("#email").val('');
+  $("#tel").val('');
+  $("#subject").val('');
+  $("#message").val('');
+
+  $("#d-none alert alert-info alert-dismissible").show();
+
+  console.log("sent");
 })
 
 $('.toggler, .nav-content a:not(#dropdown-link)').on('click', function(){
