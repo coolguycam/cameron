@@ -402,10 +402,6 @@ p, span, a{
     letter-spacing: .05em;
 }
 
-#portfolio .row div .overlay h3 a {
-    color: #f7f7f7 !important;
-}
-
 .overlay h3.project-title{
     -webkit-transform: translate(-50%, -50%) !important;
             transform: translate(-50%, -50%) !important;
