@@ -403,7 +403,7 @@ p, span, a{
 }
 
 #portfolio .row div .overlay h3 a {
-    color: #f7f7f7;
+    color: #f7f7f7 !important;
 }
 
 .overlay h3.project-title{
