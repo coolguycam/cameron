@@ -390,7 +390,7 @@ p, span, a{
     border-radius: 0;
 }
 
-#portfolio .row div .overlay h3{
+#portfolio .row div .overlay h3 {
     color: #f7f7f7;
     font-size: 20px;
     position: absolute;
@@ -400,6 +400,10 @@ p, span, a{
             transform: translate(-50%, -200%);
     -ms-transform: translate(-50%, -200%);
     letter-spacing: .05em;
+}
+
+#portfolio .row div .overlay h3 a {
+    color: #f7f7f7;
 }
 
 .overlay h3.project-title{
