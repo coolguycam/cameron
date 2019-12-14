@@ -223,16 +223,17 @@ p, span, a{
 #about{
 	padding-top: 80px;
 	padding-bottom: 80px;
-	background: #2B2B2B;
+    background: #EBEEEE;
 }
 
 #about h2{
 	margin-bottom: 30px;
-	color: #F5F5F5;
+    color: #875F9A;
+    ;
 }
 
 #about p{
-	color: #999;
+	color: #666;
 }
 
 #about img{
@@ -284,7 +285,7 @@ p, span, a{
 }
 
 .skills > h4{
-    color: #5D3F6A;
+    color: #875F9A;
     margin-bottom: 40px;
 }
 
@@ -352,7 +353,7 @@ p, span, a{
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
-    color: #666;
+    color: #875F9A;
 }
 
 #portfolio img{
@@ -418,7 +419,7 @@ p, span, a{
 
 
 #contact{
-    background: #191919;
+    background: #333;
     color: #F3F3F3;
     text-align: center;
     padding: 80px 0 80px 0;
