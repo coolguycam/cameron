@@ -4,10 +4,9 @@ body{
 
 @font-face {
     font-family: "Adam";
-    src: url("css/fonts/Harabara.eot");
     src:
     url("css/fonts/alexbrush-regular-webfont.woff") format("woff"),
-    url("css/fonts/alexbrush-regular-webfont.woff2") format("woff2")
+    url("css/fonts/alexbrush-regular-webfont.woff2") format("woff2");
 }
 
 h1 {
