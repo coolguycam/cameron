@@ -2,7 +2,19 @@ body{
 	position: relative;
 }
 
-h1, h2, h3, h4, h5, h6{
+@font-face {
+    font-family: "Adam";
+    src: url("css/fonts/Harabara.eot");
+    src:
+    url("css/fonts/alexbrush-regular-webfont.woff") format("woff"),
+    url("css/fonts/alexbrush-regular-webfont.woff2") format("woff2")
+}
+
+h1 {
+    font-family: "Adam", serif !important;
+}
+
+h2, h3, h4, h5, h6{
     font-family: "Lato", serif !important;
 }
 
